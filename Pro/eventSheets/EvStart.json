@@ -1,0 +1,27 @@
+{
+	"name": "EvStart",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón",
+					"sid": 847324718364943
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 435970673435976,
+					"parameters": {
+						"layout": "InGame"
+					}
+				}
+			],
+			"sid": 831331713423128
+		}
+	],
+	"sid": 979987171343870
+}
